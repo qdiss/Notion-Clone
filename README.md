@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack Notion Clone : Next.js 13, React, Convex, Tailwind
 
-## Getting Started
+Comprehensive Feature Set:
 
-First, run the development server:
+##### 1. **Dynamic Data Synchronization:**
+
+- Real-time database connectivity ensures instantaneous updates across all users and devices, facilitating seamless collaboration.
+
+##### 2. **Intuitive Notion-Style Editor:**
+
+- An editor inspired by Notion's user-friendly interface, offering a rich and flexible environment for content creation and organization.
+
+##### 3. **Adaptive Visual Themes:**
+
+- Tailor your experience with both Light and Dark modes, providing optimal visibility and aesthetics for different preferences and environments.
+
+##### 4. **Infinite Document Nesting:**
+
+- Effortlessly manage an unlimited hierarchy of child documents, enabling users to organize information at any depth for a structured workflow.
+
+##### 5. **Robust Document Management:**
+
+- A comprehensive trash can system with soft delete functionality ensures secure data handling, allowing users to recover accidentally deleted content.
+
+##### 6. **Secure Authentication:**
+
+- A robust authentication system with encryption ensures the privacy and integrity of user data, providing a secure environment for collaboration.
+
+##### 7. **Versatile File Operations:**
+
+- Streamlined file handling capabilities including upload, deletion, and replacement, providing a seamless integration of multimedia into your documents.
+
+##### 8. **Real-Time Icon Updates:**
+
+- Each document is assigned customizable icons that update in real-time, enhancing visual cues for quick and easy document identification.
+
+##### 9. **Expandable Sidebar Navigation:**
+
+- A user-friendly sidebar with smooth expansion and contraction animations, equipped with intuitive navigation options for enhanced user experience.
+
+##### 10. **Mobile Responsiveness:**
+
+- A fully responsive design ensures a consistent and optimized experience across various devices, making on-the-go access convenient and efficient.
+
+##### 11. **Web Publishing with Ease:**
+
+- Effortlessly share your notes with the world by publishing them to the web with a single click, promoting collaboration and knowledge sharing.
+
+##### 12. **Collapsible Interface Elements:**
+
+- The ability to collapse the sidebar and other interface elements for a clutter-free workspace, allowing users to focus on their content without distractions.
+
+##### 13. **Engaging Landing Page:**
+
+- A captivating landing page that welcomes users with a visually appealing introduction, setting the tone for a positive and immersive experience.
+
+##### 14. **Customizable Cover Images:**
+
+- Personalize each document with cover images, providing a visual snapshot and enhancing the overall aesthetics of your workspace.
+
+##### 15. **Efficient File Recovery:**
+
+- A robust recovery system for previously deleted files, offering a safety net for users who may need to retrieve inadvertently removed content.
+
+## Tech Stack
+
+**Client:** Next.js 14, React, TailwindCSS
+
+**Server:** Next.js 14, Clerk
+
+**Database:** Convex
+
+## Cloning
+
+Repository Cloning:
+
+```bash
+ git clone https://github.com/qdiss/Notion-Clone.git
+```
+
+## Prerequisites:
+
+- Node version 18.x.x
+
+## Package Installation:
+
+```bash
+npm i
+```
+
+## Setup .env file
+
+```env
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+EDGE_STORE_ACCESS_KEY=
+EDGE_STORE_SECRET_KEY=
+```
+
+## Convex Configuration:
+
+```bash
+npx convex dev
+```
+
+## Application Start
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔗 Links
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/klobodanovic-adis/)
